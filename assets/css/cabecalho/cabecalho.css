@@ -1,0 +1,56 @@
+header {	
+	background: rgb(3,23,59);
+	position: fixed;
+	width:100%;
+	z-index: 100;
+}
+
+.header__caixa {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.header__links, .header__redes{
+	display: flex;	
+}
+
+.header__links___item, .header__redes___item{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.header__links___item {
+	font-weight: bold;	
+	margin-left: 1rem;
+}
+.header__redes___item{
+	margin-right: 1rem;
+}
+header .fa-brands:hover, .header__links___item:hover {
+	color: rgb(85,26,139);
+}
+
+@media screen and (min-width:0) {
+	.header__caixa {
+		padding: 0.5rem;
+	}
+	.header__links___item {
+		font-size: 1rem;
+	}
+	.header__redes___item{
+		font-size: 1.3rem;
+	}
+}
+@media screen and (min-width:480px) {
+	.header__caixa{
+		padding: 1rem 10%;
+	}
+	.header__links___item{
+		font-size: 1.5rem;
+	}
+	.header__redes___item{
+		font-size: 1.8rem;
+	}
+}

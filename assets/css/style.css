@@ -1,0 +1,217 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	width:100%;
+	background: rgb(3,23,59);
+	padding: 1em 0;
+	position: fixed;
+}
+
+.caixa {
+	width: 940px;
+	margin: 0 auto;
+}
+.links {
+	width:50%;
+	display: inline-block;
+	margin: 2.65px 0;
+}
+.links li {
+	display: inline;
+	margin: 0 1rem 0 1rem;
+	
+}
+
+.links a{
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: white;	
+}
+.links a:hover {
+	color: rgb(85,26,139);
+	border: 2pt #fefefe;
+
+}
+
+.lista-redes {
+	width:50%;
+	display: inline-block;
+	text-align: right;
+}
+
+.lista-redes li {
+	margin: 0 0 0 1rem;
+	display: inline;
+	font-size: 1.5rem;
+	
+	
+}
+
+.fa-brands{
+	color:white;
+}
+
+.fa-brands:hover {
+	color: rgb(85,26,139);
+}
+
+
+
+main {
+	background: linear-gradient(#fefefe, #44fefe);
+}
+
+.principal {
+	
+}
+
+.principal-caixa{
+	width: 940px;
+	margin: 0 auto;
+	padding: 5rem 0 1rem 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin: 1rem 0;
+	opacity: 0.7;
+	text-transform: uppercase;
+}
+
+
+.foto {
+	width: 50%;
+	display: inline-block;	
+	text-align: center;
+}
+
+.foto-pessoal {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.principal-conteudo {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+
+}
+
+
+
+.projetos h2 {
+	padding-top: 4rem;
+
+}
+
+
+.projetos-caixa {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.lista-projetos {
+	
+
+}
+
+.item-projetos {
+
+	height: 500px;
+	background: #fefefe;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 1%;
+	margin: 2rem 3.75%;
+	border: 2pt solid black;
+	border-radius: 10px;
+
+}
+.item-projetos:hover{
+	background: rgb(100,100,200);
+}
+
+.item-projetos h3 {
+	margin: 1rem 0;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: bold;
+	
+	
+}
+
+.item-projetos p {
+	text-indent: 2rem;
+}
+
+.imagem-desktop {
+	width:100%;
+	margin: 0.5rem auto;
+}
+
+.linguagens {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 0.5rem;
+}
+
+.linguagens-usadas {
+	margin: 0.5rem 0;
+	width: 25%;
+	text-align: center;
+}
+
+.acesso a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.acesso .site , .acesso .repositorio  {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	font-size: 1.2rem;
+	border: 1pt solid;
+	border-radius: 10px;
+	padding: 3px;
+	background: rgb(230,230,230);
+	
+}
+
+.acesso .site {
+	margin: 0.5rem 4% 0.5rem 13.25%;
+}
+
+.acesso .repositorio:hover,.acesso .site:hover{
+	background: darkgray;
+	transform: scale(1.2);
+}
+
+.acesso .repositorio {
+	margin: 0.5rem 13.25% 0.5rem 4%;		
+}
+
+
+
+
+
+footer {
+	height: 4rem;
+	background: rgb(3,23,59);
+}
+
+
+

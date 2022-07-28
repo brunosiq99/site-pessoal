@@ -1,0 +1,22 @@
+.projetos__item___grid{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 10% 15% 38% 20% 17%;
+}
+
+.card__titulo{
+    grid-row: 1; 
+}
+.card__texto{
+    grid-row: 2;
+}
+.card__imagem{
+    grid-row: 3;
+}
+.card__tecnologias{
+    grid-row: 4;
+    text-align: center;
+}
+.card__acesso{
+    grid-row: 5;
+}

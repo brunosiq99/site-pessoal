@@ -1,0 +1,13 @@
+main {
+    background: #e0e0fd;
+}
+.main__caixa {
+    padding: 1rem 10%;
+}
+
+.titulo-padrao {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+}

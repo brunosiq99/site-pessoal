@@ -1,0 +1,25 @@
+.principal {
+    display: grid;
+    grid-template-areas: 
+        "foto-pessoal"
+        "sobre";
+    grid-template-columns: 50% 50%;
+    padding-top: 5rem;
+}
+.principal__foto {
+    text-align: center;     
+}
+.principal__conteudo{
+    padding: 0 2rem;     
+}
+
+.principal__conteudo___sobre{
+    font-size: 1.3rem;
+    text-indent: 1rem;
+}
+.principal__foto-pessoal {
+    border-radius: 50%;
+    width: 80%;
+}
+
+
